@@ -21,15 +21,14 @@
   "editor.minimap.autohide": true,
   "terminal.integrated.gpuAcceleration": "off",
   "editor.tokenColorCustomizations": {
-    "comments": "#7e7e7e" // comment color
+    "comments": "#7e7e7e"
   },
-  // tis if for colors customize
   "workbench.colorCustomizations": {
-    "editor.background": "#212224", // editor background color
-    "editorCursor.foreground": "#ffa600", // cursor color
-    "editorLineNumber.foreground": "#525252", // line number color
-    "editor.selectionBackground": "#588cbd70", // selection color
-    "editor.foreground": "#ffffff", // (,) coma color;
+    "editor.background": "#0e1422",
+    "editorCursor.foreground": "#ffa600",
+    "editorLineNumber.foreground": "#525252",
+    "editor.selectionBackground": "#588cbd70",
+    "editor.foreground": "#ffffff",
     "foreground": "#608686"
   },
   "editor.cursorBlinking": "expand",
@@ -43,9 +42,10 @@
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "always",
   "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true
   },
-  "tabnine.experimentalAutoImports": true,
   "files.refactoring.autoSave": false,
   "emmet.includeLanguages": {
     "https://web.programming-hero.com/web-7/video/web-7-47-1-module-introduction-create-react-app-6-core-concepts": "javascriptreact",
@@ -82,21 +82,17 @@
   "files.autoSave": "afterDelay",
   "workbench.iconTheme": "material-icon-theme",
   "editor.linkedEditing": true,
-  // setUp
-
-  //  prettier Formatter
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.printWidth": 200,
-  // import setting
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.sortImports": true,
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
-    "source.organizeImports": true
+    "source.organizeImports": true,
+    "eslint.autoFixOnSave": true
   },
   "workbench.colorTheme": "Dracula",
-  // emmet
   "emmet.triggerExpansionOnTab": true,
   "editor.fontFamily": "'Operator Mono', 'Fira Code', monospace",
   "editor.fontLigatures": true,
