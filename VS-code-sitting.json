@@ -3,7 +3,7 @@
   "editor.wordWrap": "on",
   "files.autoSaveDelay": 100,
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.fontSize": 20,
+  "terminal.integrated.fontSize": 18,
   "editor.accessibilitySupport": "off",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -19,6 +19,7 @@
   "terminal.integrated.minimumContrastRatio": 3,
   "cSpell.minWordLength": 3,
   "editor.minimap.autohide": true,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "terminal.integrated.gpuAcceleration": "off",
   "editor.tokenColorCustomizations": {
     "comments": "#7e7e7e"
@@ -29,7 +30,11 @@
     "editorLineNumber.foreground": "#525252",
     "editor.selectionBackground": "#588cbd70",
     "editor.foreground": "#ffffff",
-    "foreground": "#608686"
+    "foreground": "#608686",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#d60d0d",
+    "terminalCursor.background": "#74f107",
+    "terminalCursor.foreground": "#089e3a",
+    "terminal.ansiBrightYellow": "#ffd500"
   },
   "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorWidth": 0,
@@ -49,10 +54,11 @@
   "files.refactoring.autoSave": false,
   "emmet.includeLanguages": {
     "https://web.programming-hero.com/web-7/video/web-7-47-1-module-introduction-create-react-app-6-core-concepts": "javascriptreact",
-    "javascript": "javascriptreact"
+    "javascript": "javascriptreact",
+    "jsx": "javascriptreact"
   },
   "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[css]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -79,22 +85,22 @@
     "HTML (Eex)",
     "plist"
   ],
-  "files.autoSave": "afterDelay",
   "workbench.iconTheme": "material-icon-theme",
   "editor.linkedEditing": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.printWidth": 200,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    // "source.fixAll": true,
     "source.sortImports": true,
     "source.fixAll.eslint": true,
     "source.fixAll.tslint": true,
-    "source.organizeImports": true,
     "eslint.autoFixOnSave": true
   },
-  "workbench.colorTheme": "Dracula",
   "emmet.triggerExpansionOnTab": true,
   "editor.fontFamily": "'Operator Mono', 'Fira Code', monospace",
   "editor.fontLigatures": true,
-  "editor.formatOnPaste": true
+  "editor.formatOnPaste": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Dracula",
+  "files.autoSave": "afterDelay"
 }
