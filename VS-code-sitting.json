@@ -12,7 +12,7 @@
   "editor.formatOnSave": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.fontSize": 18,
+  "editor.fontSize": 14,
   "tailwindCSS.emmetCompletions": true,
   "cSpell.autoFormatConfigFile": true,
   "editor.minimap.showSlider": "always",
@@ -34,7 +34,8 @@
     "editorBracketHighlight.unexpectedBracket.foreground": "#d60d0d",
     "terminalCursor.background": "#74f107",
     "terminalCursor.foreground": "#089e3a",
-    "terminal.ansiBrightYellow": "#ffd500"
+    "terminal.ansiBrightYellow": "#ffd500",
+    "tree.indentGuidesStroke": "#ffffff" // site bar line color
   },
   "editor.cursorBlinking": "expand",
   "terminal.integrated.cursorWidth": 0,
@@ -90,17 +91,15 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "prettier.printWidth": 200,
   "editor.codeActionsOnSave": {
-    // "source.fixAll": true,
-    "source.sortImports": true,
-    "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
-    "eslint.autoFixOnSave": true
+    "source.sortImports": "explicit",
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "eslint.autoFixOnSave": "explicit"
   },
   "emmet.triggerExpansionOnTab": true,
   "editor.fontFamily": "'Operator Mono', 'Fira Code', monospace",
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
-  "tabnine.experimentalAutoImports": true,
   "workbench.colorTheme": "Dracula",
   "files.autoSave": "afterDelay"
 }
