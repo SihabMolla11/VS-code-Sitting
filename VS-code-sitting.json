@@ -3,7 +3,7 @@
   "editor.wordWrap": "on",
   "files.autoSaveDelay": 100,
   "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.fontSize": 18,
+  "terminal.integrated.fontSize": 16,
   "editor.accessibilitySupport": "off",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
@@ -12,10 +12,8 @@
   "editor.formatOnSave": true,
   "files.trimFinalNewlines": true,
   "files.trimTrailingWhitespace": true,
-  "editor.fontSize": 14,
   "tailwindCSS.emmetCompletions": true,
   "cSpell.autoFormatConfigFile": true,
-  "editor.minimap.showSlider": "always",
   "terminal.integrated.minimumContrastRatio": 3,
   "cSpell.minWordLength": 3,
   "editor.minimap.autohide": true,
@@ -62,7 +60,7 @@
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
   "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+    "editor.defaultFormatter": "vscode.css-language-features"
   },
   "javascript.updateImportsOnFileMove.enabled": "always",
   "auto-close-tag.activationOnLanguage": [
@@ -101,5 +99,16 @@
   "editor.fontLigatures": true,
   "editor.formatOnPaste": true,
   "workbench.colorTheme": "Dracula",
-  "files.autoSave": "afterDelay"
+  "files.autoSave": "afterDelay",
+  "editor.wordWrapColumn": 100,
+  "chat.editor.wordWrap": "on",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
 }
