@@ -1,114 +1,100 @@
 {
-  "workbench.startupEditor": "none",
-  "editor.wordWrap": "on",
-  "files.autoSaveDelay": 100,
-  "liveServer.settings.donotShowInfoMsg": true,
-  "terminal.integrated.fontSize": 16,
-  "editor.accessibilitySupport": "off",
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "editor.minimap.enabled": true,
-  "editor.formatOnSave": true,
-  "files.trimFinalNewlines": true,
-  "files.trimTrailingWhitespace": true,
-  "tailwindCSS.emmetCompletions": true,
-  "cSpell.autoFormatConfigFile": true,
-  "terminal.integrated.minimumContrastRatio": 3,
-  "cSpell.minWordLength": 3,
-  "editor.minimap.autohide": true,
-  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-  "terminal.integrated.gpuAcceleration": "off",
-  "editor.tokenColorCustomizations": {
-    "comments": "#7e7e7e"
-  },
-  "workbench.colorCustomizations": {
-    "editor.background": "#0e1422",
-    "editorCursor.foreground": "#ffa600",
-    "editorLineNumber.foreground": "#525252",
-    "editor.selectionBackground": "#588cbd70",
-    "editor.foreground": "#ffffff",
-    "foreground": "#608686",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#d60d0d",
-    "terminalCursor.background": "#74f107",
-    "terminalCursor.foreground": "#089e3a",
-    "terminal.ansiBrightYellow": "#ffd500",
-    "tree.indentGuidesStroke": "#ffffff" // site bar line color
-  },
-  "editor.cursorBlinking": "expand",
-  "terminal.integrated.cursorWidth": 0,
-  "terminal.integrated.cursorStyle": "underline",
-  "terminal.integrated.cursorBlinking": true,
-  "editor.multiCursorLimit": 1000,
-  "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "liveServer.settings.donotVerifyTags": true,
-  "git.enableSmartCommit": true,
-  "git.openRepositoryInParentFolders": "always",
-  "[javascript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
+    "workbench.startupEditor": "none",
+    "editor.wordWrap": "on",
+    "files.autoSaveDelay": 100,
+    "terminal.integrated.fontSize": 16,
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": true,
+    "editor.formatOnSave": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "editor.fontSize": 14,
+    "tailwindCSS.emmetCompletions": true,
+    "cSpell.autoFormatConfigFile": true,
+    "editor.minimap.showSlider": "always",
+    "terminal.integrated.minimumContrastRatio": 3,
+    "cSpell.minWordLength": 3,
+    "editor.minimap.autohide": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "terminal.integrated.gpuAcceleration": "off",
+    "editor.tokenColorCustomizations": {
+        "comments": "#7e7e7e"
+    },
+    "workbench.colorCustomizations": {
+        "editor.background": "#0e1422",
+        "editorCursor.foreground": "#ffa600",
+        "editorLineNumber.foreground": "#525252",
+        "editor.selectionBackground": "#588cbd70",
+        "editor.foreground": "#ffffff",
+        "foreground": "#608686",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#d60d0d",
+        "terminalCursor.background": "#74f107",
+        "terminalCursor.foreground": "#089e3a",
+        "terminal.ansiBrightYellow": "#ffd500",
+        "tree.indentGuidesStroke": "#ffffff" // site bar line color
+    },
+    "editor.cursorBlinking": "expand",
+    "terminal.integrated.cursorWidth": 0,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.multiCursorLimit": 1000,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always",
+    "[javascript]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnType": true
+    },
+    "files.refactoring.autoSave": false,
+    "emmet.includeLanguages": {
+        "https://web.programming-hero.com/web-7/video/web-7-47-1-module-introduction-create-react-app-6-core-concepts": "javascriptreact",
+        "javascript": "javascriptreact",
+        "jsx": "javascriptreact"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "auto-close-tag.activationOnLanguage": [
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "editor.linkedEditing": true,
+
+    "editor.codeActionsOnSave": {
+        "source.sortImports": "explicit",
+        "source.fixAll.eslint": "explicit",
+        "source.fixAll.tslint": "explicit",
+        "eslint.autoFixOnSave": "explicit"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "editor.fontFamily": "'Operator Mono', 'Fira Code', monospace",
+    "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
-    "editor.formatOnType": true
-  },
-  "files.refactoring.autoSave": false,
-  "emmet.includeLanguages": {
-    "https://web.programming-hero.com/web-7/video/web-7-47-1-module-introduction-create-react-app-6-core-concepts": "javascriptreact",
-    "javascript": "javascriptreact",
-    "jsx": "javascriptreact"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "vscode.css-language-features"
-  },
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "auto-close-tag.activationOnLanguage": [
-    "xml",
-    "php",
-    "blade",
-    "ejs",
-    "jinja",
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "plaintext",
-    "markdown",
-    "vue",
-    "liquid",
-    "erb",
-    "lang-cfml",
-    "cfml",
-    "HTML (EEx)",
-    "HTML (Eex)",
-    "plist"
-  ],
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.linkedEditing": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "prettier.printWidth": 200,
-  "editor.codeActionsOnSave": {
-    "source.sortImports": "explicit",
-    "source.fixAll.eslint": "explicit",
-    "source.fixAll.tslint": "explicit",
-    "eslint.autoFixOnSave": "explicit"
-  },
-  "emmet.triggerExpansionOnTab": true,
-  "editor.fontFamily": "'Operator Mono', 'Fira Code', monospace",
-  "editor.fontLigatures": true,
-  "editor.formatOnPaste": true,
-  "workbench.colorTheme": "Dracula",
-  "files.autoSave": "afterDelay",
-  "editor.wordWrapColumn": 100,
-  "chat.editor.wordWrap": "on",
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[typescriptreact]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features"
-  },
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  }
+    "workbench.colorTheme": "Dracula",
+    "files.autoSave": "afterDelay",
+    "editor.autoClosingBrackets": "always",
+    "[prisma]": {
+        "editor.defaultFormatter": "Prisma.prisma"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    // Prettier Formatter
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 4
 }
