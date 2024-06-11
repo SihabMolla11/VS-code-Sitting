@@ -87,7 +87,7 @@
     "editor.fontLigatures": true,
     "editor.formatOnPaste": true,
     "workbench.colorTheme": "Dracula",
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "afterDelay", //auto save
     "editor.autoClosingBrackets": "always",
     "[prisma]": {
         "editor.defaultFormatter": "Prisma.prisma"
@@ -96,5 +96,8 @@
     // Prettier Formatter
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "prettier.printWidth": 80,
-    "prettier.tabWidth": 4
+    // "prettier.tabWidth": 4,
+    "prisma.showPrismaDataPlatformNotification": false,
+    "reactSnippets.settings.prettierEnabled": true,
+    "reactSnippets.settings.importReactOnTop": false
 }
